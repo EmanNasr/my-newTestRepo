@@ -1,0 +1,35 @@
+Create a local git repository
+
+cd "C:\myRepo\"
+
+mkdir "my-project"
+
+initialize a git repository in the root of the folder
+
+git init
+
+Go ahead and add a new file to the project, using any text editor
+
+you can run git status command to see which files git knows exist.
+git status
+
+
+
+
+
+To add a file to a commit, you first need to add it to the staging environment. To do this, you can use the git add <filename> command (see Step 3 below).
+
+git add arra.cpp
+
+
+Once you've used the git add command to add all the files you want to the staging environment, you can then tell git to package them into a commit using the git commit command. 
+
+
+If you rerun the git status command, you'll see that git has added the file to the staging
+
+git status
+
+git commit -m "This is my first commit!"
+
+
+switch branches command if u need: git checkout branchname
